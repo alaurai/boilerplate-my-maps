@@ -15,6 +15,11 @@
 # production
 /build
 
+#env
+.env.development.local
+.env.test.local
+.env.production.local
+
 # misc
 .DS_Store
 *.pem
@@ -30,3 +35,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# sw stuff
+public/sw.js
+public/workbox-*.js
